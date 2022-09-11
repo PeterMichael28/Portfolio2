@@ -371,7 +371,7 @@ a{
     align-items: center;
     justify-content: center;
     width: 92%;
-    margin: 20px auto;
+    margin: 40px auto;
     overflow: hidden;
     border-radius: 20px;
 }
@@ -447,13 +447,13 @@ a{
     letter-spacing: .1rem;
     font-weight: 600;
     color: white;
-    box-shadow: 2px 2px 3px 2px #595c5f,
-                -3px -2px 3px 3px #191c20;
     transition: .4s ease all;
+    box-shadow: inset 2px 2px 3px 2px #595c5f,
+    inset -3px -2px 3px 3px #191c20;
 }
 #projects .projects-btns a:hover {
-    box-shadow: inset 2px 2px 3px 2px #595c5f,
-                inset -3px -2px 3px 3px #191c20;
+    box-shadow: 2px 2px 3px 2px #595c5f,
+                -3px -2px 3px 3px #191c20;
     transition: .4s ease all;
 }
 /*end of projects section*/
