@@ -11,9 +11,9 @@ hamb.addEventListener('click', () => {
 document.addEventListener('scroll', () => {
     var s_p = window.scrollY;
     if (s_p > 250){
-        header.style.backgroundColor ="dimgrey";
+        header.style.backgroundImage ="linear-gradient(60deg, #29323c 0%, #485563 100%)";
     } else {
-        header.style.backgroundColor ="transparent"
+        header.style.backgroundImage ="none"
     }
 })
 mobile_item.forEach(item=> {
