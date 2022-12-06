@@ -675,12 +675,15 @@ a{
         margin: 2.5%;
     }
     /* for projects*/
+    
     #projects .project-items {
         flex-direction: row;
     }
+
     #projects .project-items:nth-child(odd) {
         flex-direction: row-reverse;
     }
+
     #projects .project-items {
         height: 400px;
         margin: 0;
@@ -846,6 +849,7 @@ a{
 .active.fade-right {
   animation: fade-right .9s ease-in-out;
 }
+
 @keyframes fade-bottom {
   0% {
     transform: translateY(70px);
